@@ -1,0 +1,21 @@
+#Titulo {
+    background-color: rgb(0, 0, 0);
+    color: rgb(71, 47, 74);
+}
+div{ 
+    background-color: green; 
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+
+}
+
+p {
+    background-color: blue;
+    border: 5px double rgb(00, 00, 255) ; /* aqui você define a borda, da para colocar 3 parametros, tamanho, tipo de borda e cor*/
+    /* sollid, dashed, dotted*/
+    /* bottom, top, left, right (Mudar onde eu quero a borda)*/
+    border-radius: 5px; /* aqui você arredonda as bordas*/
+}
