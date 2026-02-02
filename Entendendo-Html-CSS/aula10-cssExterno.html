@@ -1,0 +1,48 @@
+<!-- Como utilizar css na pagina 
+ 
+O css pode ser aplicado de 3  formas 
+- CSS inline - Dentro da tag HTML, utilizando o atributo style
+- CSS interno - Dentro da tag <head> utilizando a tag <style>
+- CSS externo - Criando um arquivo .css separado e vinculando ele na tag <head>
+
+-->
+<!-- Css externo no arquivo style -->
+<!DOCTYPE html>
+
+<html lang="pt-BR"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 10</title>
+
+        <!-- Css externo no arquivo style -->
+        <link rel="stylesheet" href="style.css"> <!-- Como colocar css externo -->
+    </head>
+
+    <body>
+        <h1 style="color: red;">Titulo</h1> <!-- Exemplo de CSS inline, só colocar o style e os atributos que quer alterar -->
+        <h2>Sub-Titulo</h2>
+        <p>Paragrafo</p>
+        <a href="https://sig.ufla.br/modulos/login/index.php">Ancora, coloca um Link</a>
+        <br /><!-- Quebra de linha -->
+        <!-- Tag de imagem, alt é alternativa de texto para imagem caso ela não seja carregada-->
+        <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrORiHnM6-fobb-RLmkFQqMdc1bOBIKmL-tA&s" alt="taking hobbits to isengard" >  
+        </a>
+        <br /><!-- Quebra de linha -->
+        <br />
+        <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY">
+            <button style="font-size: 30px; color: blue;">Clique aqui para ver o video taking hobbits to isengard</button>
+        </a>
+
+        <h3>Lista de bolo</h3>
+        <!--Listas-->
+        <ol><!--Existe um lista ordenada <ul> é uma lista desordenada-->
+
+            <li>Massa de bolo</li><!--item da lista-->
+            <li>Recheio</li><!--item da lista-->
+            <li>Ovoses</li>
+        </ol>
+
+    </body>
+</html>
+
