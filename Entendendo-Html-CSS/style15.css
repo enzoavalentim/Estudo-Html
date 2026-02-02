@@ -1,0 +1,11 @@
+
+/* Toda Div tem 4 elementos, conteudo, borda, peding e o mergem */
+div{ 
+    border: 1px solid black;
+    padding: 10px; /* Espaçamento entre a borda e o conteudo para todos os lados*/
+    margin-bottom: 50px; /* Espaçamento entre a borda e outros elementos para todos os lados*/
+}
+
+body{
+    margin: 0px; /* Espaçamento entre a borda do body e a borda da pagina*/
+}
